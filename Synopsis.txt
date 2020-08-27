@@ -1,0 +1,67 @@
+     CREDIT CARD FRAUD DETECTION USING MACHINE LEARNING
+            
+   ABSTRACT
+
+ Credit Card Fraud can be defined as a case where a person uses someone else’s credit card for personal reasons while the owner and the card-issuing authorities are unaware of the fact that the card is being used. 
+ Due to the rise and acceleration of E-Commerce, there has been a tremendous use of credit cards for online shopping which led to High amount of frauds related to credit cards. In the era of digitalization, the need to identify credit card frauds is necessary. 
+ Fraud detection involves monitoring and analyzing the behavior of various users to estimate detects or avoid undesirable behavior. 
+ To identify credit card fraud detection effectively, we need to understand the various technologies, algorithms and types involved in detecting credit card frauds.
+ The algorithm can differentiate transactions which are fraudulent or not. Find fraud, they need to passed dataset and knowledge of the fraudulent transaction.
+ They analyze the dataset and classify all transactions. Fraud detection involves monitoring the activities of populations of users to estimate, perceive or avoid objectionable behavior, which consist of fraud, intrusion, and defaulting. 
+ Machine learning algorithms are employed to analyses all the authorized transactions and report the suspicious ones. 
+
+     Core Features:
+      
+      •	The system stores previous transaction patterns for each user.
+      •	Based upon the user spending ability and even country, it calculates user’s characteristics.
+      •	More than 20 -30 %deviation of users transaction (spending history and operating country) is considered as an invalid attempt and system takes action.
+
+    Programming Language:
+       
+      •  Python  Using Machine Learning
+    
+   Algorithms Used :
+      
+      •	Unsupervised Outlier Detection algorithm
+      •	Isolation Forest Algorithm
+  
+    Software Requirements:
+
+      •	Windows 10,Windows Xp, Windows 7(ultimate, enterprise) 
+ 
+    Hardware Components:
+      •	Processor – I3/I5
+      •	Min Hard Disk – 4 GB
+      •	Min Memory – 1GB RAM
+
+    Reference:
+
+    http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=5159014&queryText%3DCredit+Card+Fraud+Detection
+    http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=323314&queryText%3DCredit+Card+Fraud+Detection
+
+
+
+                      
+ 
+                                                              
+     
+
+
+
+
+
+
+
+  
+
+
+
+                      
+ 
+                                                              
+     
+
+
+
+
+
