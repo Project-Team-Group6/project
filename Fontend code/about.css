@@ -1,0 +1,25 @@
+body{
+	margin:0;
+	padding: 0;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(image.jpg);
+	font-weight: Century Gethic;
+	background-position: center;
+	background-size: cover;
+}
+.container{
+	
+	background: rgba(44,62,80,0.7);
+	padding: 40px;
+	margin-top: 80px;
+	height: 230px;
+	margin-left: 180px;
+	margin: 0 auto;
+	margin-top: 120px;
+	width: 400px;
+	color: white;
+}
+a{
+	color:yellow;
+	font-family: Tahoma,Geneva,sans-serif;
+	margin-left:30px;
+}
