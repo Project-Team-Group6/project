@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>contact</title>
+<link href="contact.css" rel="stylesheet" type="text/css"/>
+<style>
+#msg{
+     visibility:hidden;
+     min-width:250px;
+    background-color: Yellow;
+    color:#000;
+    text-align-:center;
+    border-radius:2px;
+    padding:16px;
+    position:fixed;
+    z-index:1;
+    left:40%;
+    top:4.5%;
+    font-size:17px;
+    margin-right:50px;
+}
+#msg.show{
+     visibility:visible;
+     -webkit-animation:fadein 0.5s,fadeout 0.5s 2.5s;
+     animation:fade 0.5s,fadeout 0.5s 2.5s;
+}
+@-webkit-keyframes fadein{
+from{top:0; opacity:0;}
+to{top:30px; opacity:1;}
+}
+@keyframes fadein{
+from{top:0; opacity:0;}
+to{top: 30px; opacity: 1;}
+}
+@-webkit-keyframes fadeout{
+from {top: 30px; opacity:1;}
+to {top:0; opacity:0;}
+}
+@keyframes fadeout {
+from{top:30px; opacity:1;}
+to{top:0; opacity:0;}
+}
+</style>
+</head>
+	<body>
+		<div class="contact">
+		<form>
+			<h2 style="color: white">Contact Us</h2>
+			<input type="text" name="username"
+			placeholder="Username"><br><br>
+			<input type="email" name="email" placeholder="gmail@.com"><br><br><br><br>
+			<input type="button" value="Submit" onclick="myFunction()"><br><br>
+			<br>
+			<div id="msg">successfully Sent!!</div>
+			<br>
+			
+		<br><br><br><br>
+		<a href="hd.html" style="text-decoration: none;">Go back to Home page</a><br><br>
+       </div>
+             <script type="text/javascript">
+				function myFunction()
+				{
+					var x=document.getElementById("msg");
+					x.className="show";
+					setTimeout(function() {x.className=x.className.replace("show","");},3000);
+				}
+			</script>
+		</form>
+	</div>

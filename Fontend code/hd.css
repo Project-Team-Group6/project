@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 1170px;
+	margin: auto;
+}
+header{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("Fraud1.jpg");
+	height: 690px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.caption{
+	float: left;
+	color: white;
+	margin-left: -2px;
+	margin-top: 15px;
+	font-family: poppins;
+
+}
+.nav-area {
+	float: right;
+	margin-top: 20px;
+	margin-left: 420px;
+	list-style:none;
+	
+}
+.nav-area  li{
+	display:inline-block; 
+}
+.nav-area  li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	margin-top: -5px;
+	font-family: poppins;
+	font-size: 14px;
+}
+.nav-area li a:hover{
+	background: red;
+	color: white;
+}
+.welcome-text{
+	position: absolute;
+	width: 600px;
+	height: 200px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.welcome-text h1{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+	font-family: Aerial;
+}
+.welcome-text p{
+	font-size: 30px;
+}
+/*----------------------About-------------------*/
+#About
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+#About .btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.About-content
+{
+  padding-top: 10px;
+}
+.skills-bar p
+{
+	margin-bottom: 6px;
+	font-weight: 600px;
+}
+.progress-bar
+{
+	border-radius:16px;
+}
+.progress{
+	border-radius:16px !important;
+   margin-bottom:20px;
+}
+/*-------------------Services---------------*/
+#services{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("Fraud1.jpg");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#services h1
+{
+	text-align: center;
+	color: white;
+	padding-bottom: 10px;
+}
+#services h1::after
+{
+	content: '';
+	background: white;
+	display: block;
+	height: 3px;
+	width: 160px;
+	margin: 20px auto 5px;
+
+}
+.services{
+	margin-top: 40px;
+}
+#services p{
+	font-size: 15px;
+	margin-top: 20px;
+	color: white;
+}
+.services .col-md-3:hover{
+	background: #007bff;
+	cursor: pointer;
+	transition: 0.7s;
+}
+#promo
+{
+	background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Fraud1.img);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 100px;
+	font-family: Aerial;
+	font-size: 20px;
+}
