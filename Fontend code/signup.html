@@ -1,0 +1,74 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>registration</title>
+<link href="regi.css" rel="stylesheet" type="text/css"/>
+<style>
+#msg{
+   visibility:hidden;
+   min-width:250px;
+   background-color: Yellow;
+   color:#000;
+   text-align:center;
+   border-radius:2px;
+   padding:16px;
+   position:fixed;
+   z-index:1;
+   left:40%;
+   top:4.5%;
+   font-size:17px;
+   margin-right:50px;
+}
+#msg.show{
+     visibility:visible;
+     -webkit-animation:fadein 0.5s,fadeout 0.5s 2.5s;
+     animation:fade 0.5s,fadeout 0.5s 2.5s;
+}
+@-webkit-keyframes fadein{
+from{top:0; opacity:0;}
+to{top:30px; opacity:1;}
+}
+@keyframes fadein{
+from{top:0; opacity:0;}
+to{top: 30px; opacity: 1;}
+}
+@-webkit-keyframes fadeout{
+from {top: 30px; opacity:1;}
+to {top:0; opacity:0;}
+}
+@keyframes fadeout {
+from{top:30px; opacity:1;}
+to{top:0; opacity:0;}
+}
+</style>
+
+</head>
+<body>
+<div class="signup">
+	<form>
+		<h2 style="color: #fff;">Create Account!!</h2><br><br>
+		<input type="text" name="username" placeholder="First name"><br><br>
+		<input type="text" name="username" placeholder="Last name"><br><br>
+		<input type="text" name="branch" placeholder="Bank name"><br><br>
+		<input type="text" name="branch" placeholder="Branch name"><br><br>
+		<input type="email" name="email" placeholder="gmail@.com"><br><br>
+		<input type="password" name="pass" placeholder="password"><br><br>
+		<input type="password" name="pass" placeholder="conform password"><br><br><br>
+		<input type="button" value="SignUp" onclick="myFunction()"/>
+		<div id="msg">Thank You!!You Are Successfully Registered!!!!</div>
+
+		<br><br>
+		<a href="login.html" style="text-decoration: none;">Go back to Home page</a><br><br>
+		   <script type="text/javascript">
+				function myFunction()
+				{
+					var x=document.getElementById("msg");
+					x.className="show";
+					setTimeout(function() {x.className=x.className.replace("show","");},3000);
+				}
+			</script>
+ 
+</form>
+</div>
+</body>
+</html>
