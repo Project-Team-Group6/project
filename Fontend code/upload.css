@@ -1,0 +1,53 @@
+body
+{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(image.jpg);
+	background-size: cover;
+}
+a{
+	color:yellow;
+	font-family: Tahoma,Geneva,sans-serif;
+	margin-left:30px;
+}
+.cong
+{
+	background: rgba(44,62,80,0.7);
+	padding: 40px;
+	margin-top: 80px;
+	height: 300px;
+	margin-left: 180px;
+	margin: 0 auto;
+	margin-top: 120px;
+	width: 450px;
+}
+h2{
+	margin-top: 50px;
+	margin-left: 10px;
+}
+.container{
+	top: 50%;
+	left: 38%;
+	transform: trasnslate(-40%.-40%);
+	position: absolute;
+}
+.upload-box{
+	font-size: 16px;
+	background: white;
+	border-radius: 50px;
+	box-shadow: 5px 5px 10px black;
+	width: 350px;
+	outline: none;
+}
+::-webkit-file-upload-button
+{
+	color: black;
+	background: yellow;
+	padding: 20px;
+	border: none;
+	border-radius: 50px;
+	box-shadow: 1px 0px 1px ;
+	outline: none;
+}
+::-webkit-file-upload-button:hover
+{
+	background: grey;
+}
